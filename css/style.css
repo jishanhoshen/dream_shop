@@ -1,0 +1,238 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none !important;
+}
+ul{
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+.light-bg{
+    background-color:#fff !important;
+}
+.dark-tx{
+    color:#4d4d4d !important;
+}
+.dark-bg{
+    background-color:#4d4d4d !important;
+}
+.gsc-search-button::before{
+    content: "\f002";
+    font-size: 16px;
+}
+
+:focus {
+    outline: -webkit-focus-ring-color auto 0px !important;
+    box-shadow:none !important;
+}
+.icon::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+.mytitle {
+    margin: 0px auto 20px auto;
+}
+.mytitle h3 {
+    font-family: system-ui;
+}
+.search_input {
+    max-width: 500px;
+    margin: 0px auto;
+    padding: 0px 20px;
+    width: 100%;
+}
+input[type=text]:focus, textarea:focus {
+    border: 0px solid #fff;
+}
+input[type=submit] {
+    max-width: 90px !important;
+}
+.search_input input {
+    border-radius: 30px;
+    padding: 6px 16px;
+}
+.gsc-search-button {
+    /* background-image: linear-gradient(to right, #b945c8 , #377ed4) !important; */
+    border: none !important;
+    border-top-right-radius: 30px !important;
+    border-bottom-right-radius: 30px !important;
+    max-width: 85px !important;
+}
+.gsc-search-button.light{
+    color: #fff !important;
+    background-color: #4D4D4C !important;
+}
+.gcsc-more-maybe-branding-root{
+    display:none;
+}
+.mynav {
+    height: 70px;
+    box-shadow: 0px 0px 2px #a3a3a3;
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.logo h1 a {
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.logo h1 a .logof {
+    font-weight: 700;
+}
+
+.logo h1 a .logol {
+    font-weight: 300;
+}
+
+.logo {display: flex;}
+
+.mymenu_wraper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mymenu ul {
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+}
+
+.mymenu ul li a {
+    margin: 0px 2px;
+    padding: 21px 0px;
+    font-weight: 400;
+    width: 90px;
+    display: block;
+    text-align: center;
+}
+
+
+.join a {
+    margin: 0px 2px;
+    padding: 5px 30px;
+    font-weight: 700;
+    border-radius: 4px;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.join {
+    display: inline-flex;
+}
+.mysreach_area_light{
+    background-color: #c8c8c8 !important;
+}
+.mysreach_area_dark{
+    background-color: #616161 !important;
+}
+.mysreach_area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #4d4d4d10;
+    padding: 80px 0;
+}
+.single_service {
+    padding: 10px;
+    border-radius: 4px;
+    margin: 4px 8px;
+    display: flex;
+    box-shadow: 0px 0px 3px #4d4d4d70;
+    width: 100%;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    height: inherit;
+}
+.single_service_light{
+    background-color:#ffffff !important;
+}
+.single_service_dark{
+    background-color:#616161 !important;
+}
+.section {
+    display: inline-flex;
+    width: 100%;
+}
+.services {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 40px auto;
+}
+
+.single_service * {
+    margin: 0;
+    padding: 4px 10px;
+    text-align: justify;
+}
+.service_icon {
+    margin: 0;
+    padding: 0;
+}
+.single_service h3 {
+    text-transform: uppercase;
+}
+.service_icon.uidesign::before {
+    content: "\f5ad";
+    font-size: 55px;
+}
+.service_icon.uitemplate::before {
+    content: "\f009";
+    font-size: 55px;
+}
+.service_icon.phpsite::before {
+    content: "\f1c9";
+    font-size: 55px;
+}
+.service_icon.threein1::before {
+    content: "\f681";
+    font-size: 55px;
+}
+hr.line_devider.light-tx {
+    border-top: 1px solid #fff;
+    margin: 1rem auto;
+    width: 80%;
+}
+hr.line_devider.dark-tx {
+    border-top: 1px solid #4d4d4d;
+    margin: 1rem auto;
+    width: 80%;
+}
+.mainContainer{
+    display: none;
+}
+
+.socialList ul{
+    display:flex;
+    justify-content: center;
+}
+.socialList ul li {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 22px;
+}
+.roundProfile img{
+    border-radius: 50%;
+}
+.roundProfile {
+    display: flex;
+    justify-content: center;
+    height: 250px;
+}

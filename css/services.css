@@ -1,0 +1,82 @@
+.services {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+.service_collumn {
+    display: inline-flex;
+    flex-direction: column;
+    width: 23%;
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 0px 0px 3px #4d4d4d70;
+    border-radius: 4px;
+    color: #4d4d4d !important;
+}
+.service_collumn .icon svg {
+    font-size: 38px;
+}
+.icon {
+    text-align: center;
+    padding: 5px;
+}
+.icon::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+.uidesign::before {
+    content: "\f5ad";
+    font-size: 55px;
+}
+.uitemplate::before {
+    content: "\f009";
+    font-size: 55px;
+}
+.phpsite::before {
+    content: "\f1c9";
+    font-size: 55px;
+}
+.threein1::before {
+    content: "\f681";
+    font-size: 55px;
+}
+.service_collumn h1 {
+    text-transform: uppercase;
+    padding: 4px 10px;
+    font-size: 1.8rem;
+    text-align: center;
+}
+.service_collumn p {
+    margin: 0;
+    padding: 4px 10px;
+    font-size: 15px;
+    text-align: justify;
+}
+@media (max-width: 1200px) {
+    .service_collumn h1 {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 992px) {
+    .service_collumn h1 {
+        font-size: 1rem;
+    }
+    .service_collumn p {
+        font-size: 12px;
+    }
+}
+@media (max-width: 768px) {
+    .service_collumn {
+        width: 45%;
+    }
+}
+@media (max-width: 576px){
+    .service_collumn {
+        width: 90%;
+    }
+}

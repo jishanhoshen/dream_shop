@@ -1,0 +1,50 @@
+.singlePost {
+    height: auto;
+    position: relative;
+}
+.postPrice {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    color: #fff;
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
+    z-index: 1;
+    border-top-left-radius: 9px;
+}
+.postPrice::after {
+    position: absolute;
+    content: "";
+    height: 200px;
+    width: 200px;
+    background: #4d4d4d;
+    left: -85px;
+    top: -145px;
+    border-radius: 50%;
+    z-index: -1;
+    color: #fff;
+}
+.postCover {
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-radius: 9px 9px 0px 0px;
+}
+.postTitle {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.postTitle p {
+    padding: 8px 0px 10px 0px;
+    margin: 0px 17px;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+}

@@ -1,0 +1,26 @@
+.site_alert {
+	display: none;
+	position: absolute !important;
+    top: 84px;
+    left: auto;
+    right: 30px;
+    width: fit-content;
+    margin: auto;
+    z-index: 2;
+    animation: alert-slide .3s;
+}
+
+@keyframes alert-slide {
+  0% {
+    right: -200px;
+  }
+  80% {
+    right: 60px;
+  }
+  90% {
+    right: 40px;
+  }
+  100% {
+    right: 30px;
+  }
+}
